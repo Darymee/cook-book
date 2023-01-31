@@ -19,7 +19,7 @@
       "Green onions, sliced"
     ],
     "time": "25 min",
-    "category": ["seafood", "dinner"],
+    "categories": ["seafood", "dinner"],
     "description": "A quick Asian dish made with pan seared shrimp and a deeply flavorful, sweet and savory teriyaki sauce. Easy to make and worthy of the dinner rotation!",
     "calorie": 300
   },
@@ -45,7 +45,7 @@
       "Salt"
     ],
     "time": "20 min",
-    "category": ["salad", "dinner", "vegetables"],
+    "categories": ["salad", "dinner", "vegetables"],
     "description": "It's made with protein rich lentils, roasted bell pepper, cool crisp cucumber, bright red onion, fresh herbs, tangy feta, and it’s finished with a vibrant lemon dressing. It's the perfect way to upgrade lentils.",
     "calorie": "250"
   },
@@ -64,7 +64,7 @@
       "Hot water"
     ],
     "time": "1 h",
-    "category": ["dessert", "sweet"],
+    "categories": ["dessert", "sweet"],
     "description": "Creme Brûlée – A transcendent dessert made with a few simple ingredients including luscious heavy cream, sweet simple sugar, rich egg yolks, and vanilla bean for premium flavor. It’s the method that makes this impressive treat unique.",
     "calorie": 210
   },
@@ -84,7 +84,7 @@
       "Shredded parmesan cheese"
     ],
     "time": "45 min",
-    "category": ["pasta", "dinner", "chicken"],
+    "categories": ["pasta", "dinner", "chicken"],
     "description": "Such a rich and satisfying Chicken Alfredo recipe! It’s a hearty dish made with fettuccine pasta, a creamy parmesan white sauce, and garlicky pan seared chicken.",
     "calorie": 590
   },
@@ -105,7 +105,7 @@
       "Spinach"
     ],
     "time": "25 min",
-    "category": ["turkey", "lunch", "breakfast"],
+    "categories": ["turkey", "lunch", "breakfast"],
     "description": "Turkey Avocado Egg Wraps are so delicious and way easy to make! Here we ditch the flour based wrap and trade it in for a DIY wrap made from eggs. Then we layer in classic sandwich fillings and enjoy it warm and melty.",
     "calorie": 300
   },
@@ -124,7 +124,7 @@
       "1 tsp minced fresh parsley (completely optional)"
     ],
     "time": "40 min",
-    "category": ["seafood", "dinner", "salmon"],
+    "categories": ["seafood", "dinner", "salmon"],
     "description": "Easy Brown Sugar Glazed Salmon – Rich salmon fillets brushed in a simple brown sugar, mustard and garlic mixture then they’re oven baked until tender and flakey. A quick dinner with vibrant and slightly sweet flavor!",
     "calorie": "298"
   },
@@ -149,7 +149,7 @@
       "2 tsp fresh lemon juice"
     ],
     "time": "1h",
-    "category": ["soup", "vegetables"],
+    "categories": ["soup", "vegetables"],
     "description": "Homemade Cream of Mushroom Soup – It's a rich and flavorful soup made with sauteed mushrooms and onions, bright herbs, and a creamy broth. It's the ultimate mushroom soup recipe!",
     "calorie": 200
   },
@@ -165,7 +165,7 @@
       "2 Tbsp minced fresh parsley"
     ],
     "time": "1h",
-    "category": ["potatoes", "dinner", "side"],
+    "categories": ["potatoes", "dinner", "side"],
     "description": "Perfect Smashed Potatoes! Red potatoes are boiled, then smashed and roasted on a baking sheet until crispy on the outside, soft and tender on the inside. It’s a savory side made with simple everyday ingredients that will quickly become the highlight of any meal!",
     "calorie": 590
   },
@@ -187,7 +187,7 @@
       "3 1/2 Tbsp vegetable oil for skillet, divided"
     ],
     "time": "35 min",
-    "category": ["breakfast", "dough"],
+    "categories": ["breakfast", "dough"],
     "description": "Easy to make Johnny Cakes (AKA Hoecakes)! They are a classic breakfast entree or dinner side that can be served savory with butter alone or sweet topped with honey, jam or maple syrup.",
     "calorie": 400
   },
@@ -209,7 +209,7 @@
       "Salt and pepper"
     ],
     "time": "55 min",
-    "category": ["chicken", "dinner", "main"],
+    "categories": ["chicken", "dinner", "main"],
     "description": "Perfect Chicken Cordon Bleu – made with tender chicken breasts, flavorful black forest ham, tangy Swiss cheese, and a crisp panko finish. And to polish it off it’s highlighted with a creamy garlicky mustard sauce to finish. It may be old fashioned but it’s still absolutely delicious!",
     "calorie": "400"
   },
@@ -229,7 +229,7 @@
       "Chopped fresh basil, grated parmesan, red pepper flakes (optional ingredients to finish)"
     ],
     "time": "1h",
-    "category": ["pizza", "dough"],
+    "categories": ["pizza", "dough"],
     "description": "Nostalgic Pizza Bagels! A classic childhood favorite made with store-bought fresh bagels and pizza sauce, lots of shredded mozzarella, and any of your favorite toppings. They are unbelievably easy to make and surprisingly delicious!",
     "calorie": 410
   },
@@ -253,7 +253,7 @@
       "Shredded sweetened coconut"
     ],
     "time": "1h",
-    "category": ["cake", "sweet", "dessert"],
+    "categories": ["cake", "sweet", "dessert"],
     "description": "This Coconut Cake is one of the best cakes you’ll ever make! It’s light and fluffy, it’s brimming with sweet coconut flavor and it’s finished with a rich and creamy cream cheese frosting.  This has been a reader favorite recipe for years and it’s one of my my families favorites!",
     "calorie": 590
   }

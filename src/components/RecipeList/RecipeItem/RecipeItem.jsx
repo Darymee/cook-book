@@ -1,27 +1,15 @@
 import { Link, useLocation } from 'react-router-dom';
 
-import {
-  IoFastFoodOutline,
-  IoTimeOutline,
-  IoStarOutline,
-} from 'react-icons/io5';
+import { CategoryList } from 'components/UI/CategoryList/CategoryList';
 
-import {
-  Item,
-  ImgWrapper,
-  InfoWrapper,
-  Name,
-  InfoBlock,
-  InfoItem,
-  CategoryList,
-  CategoryItem,
-} from './RecipeItem.styles';
+import { Item, ImgWrapper, InfoWrapper, Name } from './RecipeItem.styles';
+import { Info } from 'components/UI/InfoBlock/InfoBlock';
 
 export const RecipeItem = ({ recipe }) => {
   const location = useLocation();
   const currentUrl = location.pathname === '/' ? 'recipes/' : '';
 
-  const { name, time, url, category, calorie, rating } = recipe;
+  const { name, time, url, categories, calorie, rating } = recipe;
   return (
     <Item>
       <Link
@@ -33,27 +21,8 @@ export const RecipeItem = ({ recipe }) => {
         </ImgWrapper>
         <InfoWrapper>
           <Name>{name}</Name>
-          <CategoryList>
-            {category.map((category, index) => (
-              <CategoryItem key={index} type={category}>
-                <p>{category}</p>
-              </CategoryItem>
-            ))}
-          </CategoryList>
-          <InfoBlock>
-            <InfoItem>
-              <IoTimeOutline />
-              <p>{time}</p>
-            </InfoItem>
-            <InfoItem>
-              <IoFastFoodOutline />
-              <p>{calorie} cal</p>
-            </InfoItem>
-            <InfoItem rating={rating}>
-              <IoStarOutline />
-              <p>{rating}</p>
-            </InfoItem>
-          </InfoBlock>
+          <CategoryList categories={categories} />
+          <Info time={time} calorie={calorie} rating={rating} />
         </InfoWrapper>
       </Link>
     </Item>

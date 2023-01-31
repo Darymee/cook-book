@@ -33,39 +33,6 @@ export const Name = styled.h3`
   font-family: 'Luckiest Guy', cursive;
   font-size: 20px;
   text-align: center;
-  color: ${(p) => p.theme.colors.green};
+  color: ${p => p.theme.colors.green};
   margin-bottom: 10px;
-`;
-
-export const CategoryList = styled.ul`
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-`;
-
-export const CategoryItem = styled.li`
-  padding: 5px 7px;
-  border-radius: 10px;
-  background-color: ${(p) => p.theme.colors.types[p.type]};
-  margin-left: 10px;
-  text-transform: capitalize;
-`;
-
-export const InfoBlock = styled.div`
-  display: flex;
-  justify-content: center;
-`;
-
-export const InfoItem = styled.div`
-  display: flex;
-  margin-right: 10px;
-  font-size: 18px;
-  align-items: center;
-  justify-content: center;
-  & > svg {
-    margin-right: 5px;
-    width: 25px;
-    height: 25px;
-  }
 `;

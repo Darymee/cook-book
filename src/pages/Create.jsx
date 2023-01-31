@@ -2,7 +2,7 @@ import { Title } from 'components/UI/Title/Title';
 import recipes from '../recipes.json';
 
 export const Create = () => {
-  const categories = recipes.map((recipe) => recipe.category);
+  const categories = recipes.map(recipe => recipe.categories);
   let arr = [];
   for (let category of categories) {
     console.log(category);
@@ -20,15 +20,15 @@ export const Create = () => {
         <input name="time" id="time" />
         <div>
           <p>Select Recipe Categories</p>
-          {uniqueCategories.map((category) => (
-            <label for={category}>
+          {uniqueCategories.map(categories => (
+            <label for={categories}>
               <input
-                key={category}
+                key={categories}
                 type="checkbox"
-                id={category}
-                value={category}
+                id={categories}
+                value={categories}
               />
-              {category}
+              {categories}
             </label>
           ))}
         </div>
