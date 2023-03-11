@@ -31,7 +31,7 @@ export const InfoItem = styled.div`
 `;
 
 export const InfoText = styled.p`
-  font-size: ${p => {
+  font-size: ${(p) => {
     if (p.size === 'big') {
       return '20px';
     }
@@ -43,16 +43,16 @@ function Color(point) {
     return;
   }
   if (point === 1) {
-    return 'red';
+    return '#b70d0e';
   }
-  if (point === 2) {
-    return 'orange';
+  if (point > 1 && point <= 2) {
+    return '#e57200';
   }
-  if (point === 3) {
-    return 'yellow';
+  if (point > 2 && point <= 3.5) {
+    return '#e8d405';
   }
-  if (point === 4) {
-    return 'salad';
+  if (point > 3 && point <= 4.5) {
+    return '#65b47d';
   }
-  return 'green';
+  return '#088446';
 }

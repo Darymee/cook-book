@@ -19,14 +19,13 @@ import { Info } from 'components/UI/InfoBlock/InfoBlock';
 export const RecipePage = () => {
   let { name } = useParams();
 
-  const recipe = recipes.filter(function (recipe) {
-    return recipe.name === name;
-  });
+  const recipe = recipes.filter(recipe => recipe.name === name);
 
   const { url, description, ingredients, categories, rating, time, calorie } =
     recipe[0];
 
   console.log(recipe);
+
   return (
     <>
       <Link to="/">
